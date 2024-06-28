@@ -36,3 +36,4 @@ print(f"Accuracy: {accuracy:.2f}")
 example_data = pd.DataFrame([[2, 1, 0]], columns=['legs', 'color', 'movement'])  # Example: [legs=2, color=1 (blue), movement=0 (fly)]
 example_prediction = model.predict(example_data)
 print(f"Prediction result: {'bird' if example_prediction[0] == 'bird' else 'cat'}")
+print('------------------------------------------------------')
